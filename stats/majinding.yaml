@@ -1,0 +1,37 @@
+username: majinding
+updatedAt: 2026-10-13T04:28:48.494Z
+skills:
+  teamai:
+    count: 2
+    lastUsed: 2026-10-13T04:01:36.234Z
+  brainstorming:
+    count: 1
+    lastUsed: 2026-10-13T04:11:43.801Z
+  tdd-workflow:
+    count: 1
+    lastUsed: 2026-10-13T04:13:47.316Z
+  error-handling:
+    count: 1
+    lastUsed: 2026-10-13T04:21:37.331Z
+interventions:
+  sessions: 2
+  interrupt: 0
+  toolReject: 0
+  correction: 0
+prompts: 7
+tokens:
+  input: 96
+  output: 11942
+  cacheRead: 1463543
+  cacheCreation: 115854
+daily:
+  2026-10-13:
+    sessionsEnded: 1
+    sessionsSucceeded: 1
+    promptTurns: 6
+    durationMs: 1370381
+    sessionsCorrected: 0
+    pricedRequests: 0
+    costMicros: 0
+    cacheReadTokens: 1463543
+    cacheEligibleInputTokens: 1579493
