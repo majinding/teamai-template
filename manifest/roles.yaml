@@ -1,0 +1,17 @@
+version: 1
+roles:
+  - id: oe
+    description: OE team members
+    resources:
+      knowledge: &a1
+        - oe
+      skills: *a1
+      agents: *a1
+  - id: general
+    description: Non-OE team members
+    resources:
+      knowledge: &a2
+        - ecc
+        - mattpocock
+      skills: *a2
+      agents: *a2
