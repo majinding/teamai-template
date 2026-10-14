@@ -1,17 +1,17 @@
 version: 1
 roles:
   - id: oe
-    description: OE team members
+    description: oe
     resources:
       knowledge: &a1
+        - common
         - oe
       skills: *a1
       agents: *a1
-  - id: general
-    description: Non-OE team members
+  - id: developer
+    description: ""
     resources:
       knowledge: &a2
-        - ecc
-        - mattpocock
+        - common
       skills: *a2
       agents: *a2
